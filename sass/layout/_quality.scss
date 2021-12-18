@@ -1,0 +1,63 @@
+.icone-one::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-image: url(../img/Vector.svg);
+  background-color: #f5f4fa;
+}
+.icone-two::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-image: url(../img/clock\.svg);
+  background-color: #f5f4fa;
+}
+.icone-three::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-image: url(../img/diagram\.svg);
+  background-color: #f5f4fa;
+}
+.icone-four::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-image: url(../img/astronaut\.svg);
+  background-color: #f5f4fa;
+}
+.quality {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.text {
+  width: 270px;
+}
+
+.quality-list {
+  margin-right: 30px;
+  display: flex;
+  margin-bottom: 94px;
+  margin-top: 94px;
+  & li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
